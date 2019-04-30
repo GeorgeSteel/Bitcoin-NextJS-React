@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Index from '../pages';
 
 const Nav = (props) => (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
