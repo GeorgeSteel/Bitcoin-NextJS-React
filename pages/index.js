@@ -1,12 +1,15 @@
 import MasterPage from '../components/Master';
 import fetch from 'isomorphic-unfetch';
+import Price from '../components/Price';
 
 const Index = (props) => (
     <MasterPage>
         <div className="row">
             <div className="col-12">
                 <h2>Bitcoin Price</h2>
-                { console.log(props) }
+                <Price
+                    price={ props.priceBitcoin }
+                />
             </div>
 
             <div className="col-md-8">
